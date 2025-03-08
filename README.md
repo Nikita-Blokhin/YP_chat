@@ -3,3 +3,7 @@
 # YP_chat
 
 Проект по программе обучения Яндекс.практикум на мидл фронтенд разработчик
+
+## Общее видение проекта
+
+[Figma](https://www.figma.com/design/nYh6OkmJRgXXwICia7oA8v/Стиль-чата-для-проекта-ЯП?node-id=0-1&p=f&t=sKClgouoI06Ynk8M-0)
