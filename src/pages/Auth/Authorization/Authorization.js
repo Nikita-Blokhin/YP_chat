@@ -9,7 +9,7 @@ const ClassNameLabel = 'Authorization__label';
 const ClassNameInput = 'Authorization__input';
 const inputFormData = [
   ['Логин', 'login'], ['Пароль', 'password']
-]
+];
 const formElement = document.getElementById('AuthorizationForm');
 inputFormData.map(item => (
     formElement.appendChild(createInputForm({

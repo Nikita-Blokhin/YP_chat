@@ -4,9 +4,9 @@ import createItem from '../../utils/createItem';
 function createInputForm(options) {
     const defaultOptions = {
         label: 'Поле',
-        class_name__group: 'default-group',
-        class_name__label: 'default-label',
-        class_name__input: 'default-input',
+        class_name__group: '',
+        class_name__label: '',
+        class_name__input: '',
         id_name: 'input-id'
     };
 

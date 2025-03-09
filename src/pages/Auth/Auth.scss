@@ -1,4 +1,5 @@
 @use "../../style";
+
 * {
     margin: 0;
     padding: 0;
@@ -35,6 +36,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .Authorization__form {
     @include Authorization;
     gap: 24px;
@@ -97,7 +99,6 @@ input[type="password"] {
     font-family: Verdana, sans-serif;
     letter-spacing: 0.125em;
 }
-
 
 @media (max-width: 640px) {
     .Authorization__block {

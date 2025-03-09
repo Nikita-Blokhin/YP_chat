@@ -5,6 +5,6 @@ function createItem(template, mergedOptions) {
     element.innerHTML = html;
     const item = element.firstElementChild;
     return item;
-}
+};
 
 export default createItem;

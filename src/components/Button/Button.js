@@ -4,7 +4,7 @@ import createItem from '../../utils/createItem';
 function createButton(options) {
     const defaultOptions = {
         label: 'Кнопка',
-        class_name: ['default-button'],
+        class_name: [''],
         class_name_span: '',
         id_name: 'button-id',
         onClick: () => {}
@@ -18,6 +18,6 @@ function createButton(options) {
     button.addEventListener('click', mergedOptions.onClick);
 
     return button;
-}
+};
 
 export default createButton;

@@ -12,21 +12,7 @@
 
 [Переход к проекту](https://magnificent-youtiao-a951d6.netlify.app/)
 
-## Ссылки
-
-- [Авторизация](https://magnificent-youtiao-a951d6.netlify.app/src/pages/Auth/Authorization/Authorization.html)
-- [Чат](https://magnificent-youtiao-a951d6.netlify.app/src/pages/Chat/Chat.html)
-- [Ошибка 500](https://magnificent-youtiao-a951d6.netlify.app/src/pages/Error/500/500.html)
-- [Ошибка 400](https://magnificent-youtiao-a951d6.netlify.app/src/pages/Error/400/400.html)
-- [Регистрация](https://magnificent-youtiao-a951d6.netlify.app/src/pages/Auth/Registrations/Registrations.html)
-- [Настройки пользователя](https://magnificent-youtiao-a951d6.netlify.app/src/pages/UserSettings/UserSettings.html)
-
-## Используемые технологии
-
-- javascript
-- vite
-- handlebars
-- Sass
+<span style="color:lightgray">P.S. без роутинга особо не насмотреться</span>
 
 ## Используемые команды
 
@@ -35,6 +21,26 @@
 - `npm run start` — запуск версии для разработчика
 
 - `npm run build` — cборка стабильной версии
+
+## Ссылки
+
+После локального запуска проекта можно посмотреть страницы:
+
+- [Авторизация](http://localhost:3000/src/pages/Auth/Authorization/Authorization.html)
+- [Чат](http://localhost:3000/src/pages/Chat/Chat.html)
+- [Ошибка 500](http://localhost:3000/src/pages/Error/500/500.html)
+- [Ошибка 404](http://localhost:3000/src/pages/Error/404/404.htmll)
+- [Регистрация](http://localhost:3000/src/pages/Auth/Registrations/Registrations.html)
+- [Данные пользователя](http://localhost:3000/src/pages/UserSettings/UserSettingsStatus/UserSettingsStatus.html)
+- [Изменение данных пользователя](http://localhost:3000/src/pages/UserSettings/UserSettingsEdit/UserSettingsEdit.html)
+- [Изменение пароля пользователя](http://localhost:3000/src/pages/UserSettings/UserSettingsPasswordEdit/UserSettingsPasswordEdit.html)
+
+## Используемые технологии
+
+- javascript
+- vite
+- handlebars
+- Sass
 
 ## Автор
 

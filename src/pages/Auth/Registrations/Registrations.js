@@ -3,7 +3,7 @@ import createButton from '../../../components/Button/Button.js';
 import createInputForm from '../../../components/InputForm/InputForm.js';
 import template from './Registrations.hbs?raw';
 
-document.querySelector('#Registrations').innerHTML = template
+document.querySelector('#Registrations').innerHTML = template;
 const ClassNameGroup = 'Authorization__input-group';
 const ClassNameLabel = 'Authorization__label';
 const ClassNameInput = 'Authorization__input';
@@ -12,7 +12,7 @@ const inputFormData = [
   ['Почта', 'email'], ['Логин', 'login'], ['Имя', 'first_name'],
   ['Фамилия', 'second_name'], ['Телефон', 'phone'], ['Пароль', 'password'],
   ['Пароль (еще раз)', 'password_retry']
-]
+];
 inputFormData.map(item => (
     formElement.appendChild(createInputForm({
       label: item[0],

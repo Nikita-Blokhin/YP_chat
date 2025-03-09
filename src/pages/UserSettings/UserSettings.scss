@@ -1,11 +1,12 @@
-// Variables
+@use "../../style";
+@use "../Auth/Auth";
+
 $primary-color: #3369F3;
 $text-color: #1E1E1E;
 $gray-color: #999999;
 $danger-color: #FF0000;
 $background-color: #FFFFFF;
 
-// Mixins
 @mixin button-base {
     border: none;
     cursor: pointer;
@@ -17,20 +18,17 @@ $background-color: #FFFFFF;
     }
 }
 
-// Global styles
 .UserSettings_container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
-    font-family: Inter, system-ui, -apple-system, sans-serif;
     background-color: $background-color;
     color: $text-color;
     min-height: 95vh;
 }
 
-// Profile container
 .UserSettings_content {
     min-width: 600px;
     min-height: 600px;
@@ -39,10 +37,11 @@ $background-color: #FFFFFF;
     position: relative;
 }
 
-// Back button
 .back-button {
     cursor: pointer;
     padding: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
     height: 98vh;
     border: 1px solid #999999;
     border-radius: 20px;
@@ -54,6 +53,7 @@ $background-color: #FFFFFF;
         opacity: 0.8;
     };
 }
+
 .UserSettings__back {
     text-align: center;
     background-color: blue;
@@ -65,17 +65,18 @@ $background-color: #FFFFFF;
     border-radius: 30px;
 }
 
-// Profile header
 .UserSettings_header {
     text-align: center;
     margin-bottom: 40px;
 
     .UserSettings_avatar {
-        width: 130px;
-        height: 130px;
+        width: 110px;
+        height: 110px;
+        padding: 20px;
         margin: 0 auto 20px;
         border-radius: 50%;
         overflow: hidden;
+        background-color: #999999;
 
         img {
             width: 100%;
@@ -91,7 +92,6 @@ $background-color: #FFFFFF;
     }
 }
 
-// Profile details
 .UserSettings_details {
     margin-bottom: 40px;
 
@@ -116,7 +116,6 @@ $background-color: #FFFFFF;
     }
 }
 
-// Profile actions
 .UserSettings__actions {
     display: flex;
     flex-direction: column;
@@ -138,4 +137,16 @@ $background-color: #FFFFFF;
             color: $danger-color;
         }
     }
+}
+
+.UserSettings__actions_edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Authorization__button {
+    max-width: 300px;
+    align-items: center;
+    align-content: center;
 }
