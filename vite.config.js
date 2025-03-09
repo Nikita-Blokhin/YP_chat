@@ -1,4 +1,6 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
+import handlebars from 'vite-plugin-handlebars';
+import { resolve } from 'path';
 
 export default defineConfig({
   root: '.',
@@ -14,5 +16,6 @@ export default defineConfig({
       '@components': '/src/components',
       '@icons': '/public'
     }
-  }
+  },
+  assetsInclude: "**/*.hbs"
 })

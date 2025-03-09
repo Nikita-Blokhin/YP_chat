@@ -48,11 +48,13 @@ $background-color: #FFFFFF;
     border-radius: 20px;
     background-color: #ffffff;
     box-shadow: 0px 0px 6px 0px #00000024;
+    position: absolute;
+    z-index: 1000;
     &:hover {
         opacity: 0.8;
-    }
+    };
 }
-.btn-back {
+.UserSettings__back {
     text-align: center;
     background-color: blue;
     color: #FFFFFF;
@@ -115,12 +117,12 @@ $background-color: #FFFFFF;
 }
 
 // Profile actions
-.UserSettings_actions {
+.UserSettings__actions {
     display: flex;
     flex-direction: column;
     gap: 10px;
 
-    .btn-action {
+    .UserSettings__action {
         @include button-base;
         background: none;
         color: $primary-color;
@@ -132,7 +134,7 @@ $background-color: #FFFFFF;
             border-bottom: none;
         }
 
-        &.btn-logout {
+        &.UserSettings__logout {
             color: $danger-color;
         }
     }
