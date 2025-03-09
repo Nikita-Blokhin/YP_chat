@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: '.',
@@ -14,5 +14,6 @@ export default defineConfig({
       '@components': '/src/components',
       '@icons': '/public'
     }
-  }
-})
+  },
+  assetsInclude: "**/*.hbs"
+});
